@@ -1,0 +1,71 @@
+.button{
+  width:40px;
+  height:30px;
+  border: 2px solid red;
+  border-radius: 8px;
+  background : none;
+  transition: .6s;
+  overflow: hidden;
+  color: white;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.button:hover{
+  background: red;
+  cursor: pointer;
+  color: black;
+}
+
+.op{
+  border: 2px solid grey;
+}
+
+.op:hover{
+  background: grey;
+}
+
+.num{
+  border: 2px solid white;
+}
+
+.num:hover{
+  background: white;
+}
+
+.button:hover:before{
+  opacity: .6;
+  transition: .7s;
+}
+
+.button:hover:after{
+  opacity: 1;
+  transition: .7s;
+}
+
+.long{
+  width:62px;
+  height:30px;
+}
+
+.display{
+  margin-top: 10px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 8px;
+  width:190px;
+  height:32px;
+  text-align: right;
+}
+
+.Frame{
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height:300px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #262626;
+}
